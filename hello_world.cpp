@@ -1,19 +1,19 @@
 #include <iostream>
 #include <string>
 
-// Program to demonstrate a personalized Hello World
-// Fixed: removed 'using namespace std' for better code clarity
+// Программа для демонстрации персонализированного Hello World
+// Исправлено: убрано using namespace std для лучшей читаемости кода
 
 int main()
 {
-    std::string name;  // Variable to store user's name
+    std::string name;  // Переменная для хранения имени пользователя
     
-    // Prompt user for their name
+    // Запрашиваем имя пользователя
     std::cout << "Enter your name: ";
-    std::cin >> name;   // Read the input
+    std::cin >> name;   // Считываем ввод
     
-    // Display personalized greeting
+    // Выводим персонализированное приветствие
     std::cout << "Hello world from " << name << std::endl;
     
-    return 0;  // Program executed successfully
+    return 0;  // Программа завершена успешно
 }
